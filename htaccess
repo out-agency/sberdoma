@@ -1,15 +1,24 @@
 ErrorDocument 403 /404.html
 ErrorDocument 404 /404.html
 
-DirectoryIndex page21201135.html
+DirectoryIndex page21595583.html
 
 RewriteEngine On
 
 RewriteCond %{REQUEST_FILENAME} /robots.txt
 RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
 RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^main2$ page21595583.html [NC]
+RewriteRule ^main2/$ page21595583.html [NC]
+
+RewriteRule ^privacy$ page21687656.html [NC]
+RewriteRule ^privacy/$ page21687656.html [NC]
+
 RewriteRule ^header$ page21206732.html [NC]
 RewriteRule ^header/$ page21206732.html [NC]
+
+RewriteRule ^footer$ page21673941.html [NC]
+RewriteRule ^footer/$ page21673941.html [NC]
 
 RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3064-3333-4330-b365-326538613835/favicon_1.ico [R=302,L]
 

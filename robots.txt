@@ -1,4 +1,8 @@
 User-Agent: *
+Disallow: /page21206732.html
+Disallow: /header
+Disallow: /page21673941.html
+Disallow: /footer
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
 Disallow: /tilda/click*
@@ -11,6 +15,10 @@ Disallow: /*_escaped_fragment_*
 Disallow:
 
 User-Agent: Yandex
+Disallow: /page21206732.html
+Disallow: /header
+Disallow: /page21673941.html
+Disallow: /footer
 Disallow: /tilda/form*
 Disallow: /tilda/rec*
 Disallow: /tilda/click*
